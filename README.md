@@ -6,9 +6,9 @@ It starts from raw experiment generation and walks all the way through to deploy
 
 ---
 
-## Live Demo
+🔗 [Live Demo](https://bayesian-ab-testing-platform.streamlit.app/)
 
-🔗 [live](https://bayesian-ab-testing-platform.streamlit.app/)
+---
 
 ## Why I Built This
 
