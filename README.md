@@ -179,7 +179,7 @@ How confidence evolves over time, where the stopping threshold gets crossed, and
 ### Decision Engine
 Where all the evidence lands — the final recommendation.
 
-![Decision Engine Dashboard](decision_engine/overview.png)
+![Decision Engine Dashboard](assets/decision_engine.png)
 
 ---
 
