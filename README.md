@@ -8,7 +8,7 @@ It starts from raw experiment generation and walks all the way through to deploy
 
 ## Live Demo
 
-🔗 [https://your-app-name.streamlit.app](https://bayesian-ab-testing-platform.streamlit.app/)
+🔗 [live](https://bayesian-ab-testing-platform.streamlit.app/)
 
 ## Why I Built This
 
