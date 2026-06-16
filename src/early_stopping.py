@@ -45,13 +45,23 @@ def find_early_stop(df,threshold=0.95):
     early_stop=winners.iloc[0]["traffic_pct"] #smallest traffic with 95% confidence
     return early_stop
 
-def users_saved(df,threshold=0.95):
-    early_stop=find_early_stop(df,threshold)
+def users_saved(df, threshold=0.95):
+
+    early_stop = find_early_stop(df, threshold)
+
+    print("EARLY STOP:", early_stop)
+
     if early_stop is None:
         return 0
-    
-    total_users=len(df)
-    users_used=int(total_users*(early_stop/100))
 
-    saved_users=(total_users-users_used)
+    total_users = len(df)
+
+    users_used = int(total_users * (early_stop / 100))
+
+    saved_users = total_users - users_used
+
+    print("TOTAL:", total_users)
+    print("USED:", users_used)
+    print("SAVED:", saved_users)
+
     return saved_users
