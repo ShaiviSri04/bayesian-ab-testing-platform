@@ -1,6 +1,18 @@
+from pathlib import Path
 import pandas as pd
 
 
 def load_data():
-    df=pd.read_csv(r"C:\Users\shaiv\Downloads\data analytics projects\bayesian_ab_testing_platform\data\experiments/ab_experiment_dataset.csv")
+
+    ROOT_DIR = Path(__file__).resolve().parents[1]
+
+    data_path = (
+        ROOT_DIR
+        / "data"
+        / "experiments"
+        / "ab_experiment_dataset.csv"
+    )
+
+    df = pd.read_csv(data_path)
+
     return df
