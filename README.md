@@ -6,6 +6,10 @@ It starts from raw experiment generation and walks all the way through to deploy
 
 ---
 
+## Live Demo
+
+🔗 [https://your-app-name.streamlit.app](https://bayesian-ab-testing-platform.streamlit.app/)
+
 ## Why I Built This
 
 A/B testing shows up everywhere in product work, but most tutorials stop the second you get a p-value. Test significant? Great, ship it. Done.
