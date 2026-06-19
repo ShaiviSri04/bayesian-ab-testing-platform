@@ -218,7 +218,7 @@ st.markdown('<div class="section-label">Key Metrics</div>', unsafe_allow_html=Tr
 
 kpi1, kpi2, kpi3, kpi4 = st.columns(4)
 with kpi1:
-    st.metric(label="Users", value="100K")
+    st.metric(label="Users", value="99992")
 with kpi2:
     st.metric(label="P(B Wins)", value="100%")
 with kpi3:
